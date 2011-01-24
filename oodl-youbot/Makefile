@@ -25,8 +25,10 @@ CMAKE_ARGS+=		-DBOOST_LOG_PATH=${PREFIX.boost-log}
 include ../../devel/boost-headers/depend.mk
 include ../../devel/boost-libs/depend.mk
 include ../../devel/boost-log/depend.mk
-include ../../brics/soem/depend.mk
-include ../../brics/rudeconfig/depend.mk
+include ../soem/depend.mk
+include ../rudeconfig/depend.mk
 include ../../mk/sysdep/cmake.mk
 #include ../../mk/sysdep/doxygen.mk
+include ../sysdep/cppunit.mk
 include ../../mk/robotpkg.mk
+
