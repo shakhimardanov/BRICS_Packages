@@ -7,7 +7,7 @@ DISTNAME=		oodl-youbot-${OODL_YOUBOT_VERSION}
 PKGNAME=		oodl-youbot-${OODL_YOUBOT_VERSION}
 CATEGORIES=		hardware
 MASTER_SITES=		http://brics.inf.h-brs.de/
-MASTER_REPOSITORY= 	git git://github.com/janpaulus/BRICS_OODL.git
+MASTER_REPOSITORY= 	git git://github.com/youbot/youbot_driver.git
 
 MAINTAINER=		jan.paulus@h-brs.de
 HOMEPAGE=		http://www.best-of-robotics.org
