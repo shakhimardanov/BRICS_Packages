@@ -2,17 +2,17 @@
 # Created:			Jan Paulus on 17 Aug 2010
 #
 
-OODL_YOUBOT_VERSION=	0.2
-DISTNAME=		oodl-youbot-${OODL_YOUBOT_VERSION}
-PKGNAME=		oodl-youbot-${OODL_YOUBOT_VERSION}
+YOUBOT_DRIVER_VERSION=	0.2
+DISTNAME=		oodl-youbot-${YOUBOT_DRIVER_VERSION}
+PKGNAME=		oodl-youbot-${YOUBOT_DRIVER_VERSION}
 CATEGORIES=		hardware
 MASTER_SITES=		http://brics.inf.h-brs.de/
 MASTER_REPOSITORY= 	git git://github.com/youbot/youbot_driver.git
 
 MAINTAINER=		jan.paulus@h-brs.de
-HOMEPAGE=		http://www.best-of-robotics.org
-COMMENT=		YouBot part of the BRICS Object Oriented Device Layer
-LICENSE=		gnu-gpl-v3
+HOMEPAGE=		www.youbot-store.com
+COMMENT=		The youBot Driver
+LICENSE=		gnu-lgpl-v2.1 modified-bsd
 
 USE_LANGUAGES=		c c++
 
