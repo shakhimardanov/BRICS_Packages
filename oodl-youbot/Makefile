@@ -26,7 +26,6 @@ include ../../devel/boost-headers/depend.mk
 include ../../devel/boost-libs/depend.mk
 include ../../devel/boost-log/depend.mk
 include ../soem/depend.mk
-include ../rudeconfig/depend.mk
 include ../../mk/sysdep/cmake.mk
 #include ../../mk/sysdep/doxygen.mk
 include ../sysdep/cppunit.mk
