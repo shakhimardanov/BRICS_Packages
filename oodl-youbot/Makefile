@@ -24,10 +24,10 @@ CMAKE_ARGS+=		-DSOEM_PATH=${PREFIX.soem}
 
 include ../../devel/boost-headers/depend.mk
 include ../../devel/boost-libs/depend.mk
-#include ../../devel/boost-log/depend.mk
 include ../soem/depend.mk
 include ../../mk/sysdep/cmake.mk
+#include ../../devel/boost-log/depend.mk
 #include ../../mk/sysdep/doxygen.mk
-include ../sysdep/cppunit.mk
+#include ../sysdep/cppunit.mk
 include ../../mk/robotpkg.mk
 
