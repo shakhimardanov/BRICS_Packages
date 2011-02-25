@@ -2,11 +2,11 @@
 # Created:			Jan Paulus on 17 Aug 2010
 #
 
-YOUBOT_DRIVER_VERSION=	0.5
+YOUBOT_DRIVER_VERSION=	0.6
 DISTNAME=		oodl-youbot-${YOUBOT_DRIVER_VERSION}
 PKGNAME=		oodl-youbot-${YOUBOT_DRIVER_VERSION}
 CATEGORIES=		hardware
-MASTER_SITES=		http://brics.inf.h-brs.de/
+MASTER_SITES=		https://github.com/youbot/youbot_driver/wiki/
 MASTER_REPOSITORY= 	git git://github.com/youbot/youbot_driver.git
 
 MAINTAINER=		jan.paulus@h-brs.de
