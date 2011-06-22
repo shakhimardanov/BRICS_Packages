@@ -1,8 +1,8 @@
-# robotpkg Makefile for:	soem
+# robotpkg Makefile for:	brics/soem
 # Created: Jan Paulus on 27 Oct 2010
 #
 
-SOEM_VERSION=	1.2.4
+SOEM_VERSION=	1.2.5
 EXTRACT_SUFX?= .tar.bz2
 DISTNAME=		SOEM${SOEM_VERSION}
 PKGNAME=		soem-${SOEM_VERSION}
