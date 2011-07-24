@@ -2,7 +2,7 @@
 # Created:			nico.hochgeschwender@h-brs.de
 
 ZMQ_LIBRARY_VERSION=2.1.7
-DISTNAME=		        ZMQ-${ZMQ_LIBRARY_VERSION}
+DISTNAME=		        zmq-${ZMQ_LIBRARY_VERSION}
 PKGNAME=		        zmq-${ZMQ_LIBRARY_VERSION}
 CATEGORIES=			middleware
 MASTER_SITES=			http://download.zeromq.org/
