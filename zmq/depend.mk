@@ -13,8 +13,8 @@ PREFER.zmq?=robotpkg
 
 DEPEND_USE+=zmq
 
-DEPEND_ABI.cgal?=	zmq>=2.1
-DEPEND_DIR.cgal?=	../../brics/zmq
+DEPEND_ABI.zmq?=	zmq>=2.1
+DEPEND_DIR.zmq?=	../../brics/zmq
 
 SYSTEM_SEARCH.zmq=\
 #  lib/libCGAL.so\
