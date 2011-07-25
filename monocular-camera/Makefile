@@ -7,7 +7,7 @@ DISTNAME=		monocular-camera-${OODL_MONOCULAR_CAMERA_VERSION}
 PKGNAME=		monocular-camera-${OODL_MONOCULAR_CAMERA_VERSION}
 CATEGORIES=		hardware
 MASTER_SITES=		http://brics.inf.h-brs.de/
-MASTER_REPOSITORY= 	git git://github.com/janpaulus/BRICS_OODL.git
+MASTER_REPOSITORY= 	git git://github.com/shakhimardanov/BRICS_OODL.git
 
 MAINTAINER=		azamat.shakhimardanov@h-brs.de
 HOMEPAGE=		http://www.best-of-robotics.org
