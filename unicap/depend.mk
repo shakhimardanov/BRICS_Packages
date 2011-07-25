@@ -15,7 +15,7 @@ PREFER.unicap?=	robotpkg
 DEPEND_USE+=		unicap
 
 DEPEND_ABI.unicap?=	unicap>=0.9.8
-DEPEND_DIR.unicap?=	../../brics/unicap
+DEPEND_DIR.unicap?=	../unicap
 
 SYSTEM_SEARCH.unicap=\
 	include/unicap/unicap.h
