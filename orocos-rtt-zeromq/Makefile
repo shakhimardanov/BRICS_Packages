@@ -5,7 +5,7 @@
 
 OROCOS_VERSION=		1.10.3
 DISTNAME=		orocos-toolchain-nicoh-rtt
-PKGNAME=		orocos-rtt-zeromq-www.${OROCOS_VERSION}
+PKGNAME=		orocos-rtt-zeromq-${OROCOS_VERSION}
 CATEGORIES=		middleware
 MASTER_REPOSITORY= 	git git://gitorious.org/~nicoh/orocos-toolchain/nicoh-rtt.git
 
