@@ -23,7 +23,7 @@ CMAKE_ARGS+=		-DCGAL_DIR=${PREFIX.cgal}/lib/CGAL
 include ../../image/opencv/depend.mk
 include ../../devel/boost-headers/depend.mk
 include ../../devel/boost-libs/depend.mk
-include ../../brics/cgal/depend.mk
+include ../cgal/depend.mk
 include ../../math/eigen2/depend.mk
 include ../../mk/sysdep/xerces-c.mk
 include ../sysdep/openscenegraph.mk
