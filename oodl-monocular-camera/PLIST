@@ -1,1 +1,6 @@
-bin/Test
+bin/test-monocamera-console
+bin/test-monocamera-viewer
+lib/libmonocular-camera-core.so
+lib/libmonocular-camera-generic.so
+include/generic/Image2dData.hpp
+include/generic/ImageFormat.hpp
