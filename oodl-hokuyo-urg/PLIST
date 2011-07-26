@@ -1,3 +1,16 @@
 bin/OODL_HokuyoURG_test
 bin/OODL_HokuyoURG_plot
 lib/libOODL_HokuyoURG.a
+include/hokuyoURG/Errors.hpp
+include/hokuyoURG/Exceptions.hpp
+include/hokuyoURG/HokuyoURG.hpp
+include/hokuyoURG/HokuyoURGConfiguration.hpp
+include/hokuyoURG/LaserScanner.hpp
+include/hokuyoURG/LaserScannerConfiguration.hpp
+include/hokuyoURG/LaserScannerData.hpp
+include/hokuyoURG/LaserScannerDataWithIntensities.hpp
+include/hokuyoURG/Logger.hpp
+include/hokuyoURG/Time.hpp
+include/hokuyoURG/Units.hpp
+
+
