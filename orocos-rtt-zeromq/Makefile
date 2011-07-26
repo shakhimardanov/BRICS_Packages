@@ -3,7 +3,7 @@
 # Modified:			Michael Reckhaus Mo, 25 Jul
 #
 
-OROCOS_VERSION=		1.10.3
+OROCOS_VERSION=		2.4
 DISTNAME=		orocos-toolchain-nicoh-rtt
 PKGNAME=		orocos-rtt-zeromq-${OROCOS_VERSION}
 CATEGORIES=		middleware
@@ -15,26 +15,19 @@ COMMENT=		The Orocos Real-Time Toolkit
 LICENSE=		gnu-gpl-v2
 
 USE_LANGUAGES=		c c++
-DOXYGEN_PLIST_DIR+=	share/doc/liborocos-rtt
-
-CMAKE_ARGS+=	-DBOOST_INCLUDEDIR=${PREFIX.boost-headers}/include
-
-PKG_SUPPORTED_OPTIONS+=	corba
-
-define PKG_OPTION_SET.corba
-  CMAKE_ARGS+=		-DENABLE_CORBA=ON -DCORBA_IMPLEMENTATION=OMNIORB
-
-  include ../../middleware/omniORB/depend.mk
-endef
 
 WRKSRC=			${WRKDIR}/orocos-rtt-zeromq-${OROCOS_VERSION}
 
-include ../../devel/boost-headers/depend.mk
-include ../../devel/boost-libs/depend.mk
-include ../../mk/sysdep/cmake.mk
-include ../../mk/sysdep/doxygen.mk
-include ../../mk/sysdep/xerces-c.mk
-include ../../net/zeromq/depend.mk
+NO_CONFIGURE=		yes
+NO_BUILD=		yes
+#NO_INSTALL= 		yes
+do-install:
+	${RUN} cd ${ROBOTPKG_BASE} && mkdir -p orocos-toolchain-zeromq
+	${RUN} cd ${ROBOTPKG_BASE} && cp -r orocos-toolchain/* orocos-toolchain-zeromq
+	${RUN} cd ${ROBOTPKG_BASE}/orocos-toolchain-zeromq/rtt && rm -rf ./*
+	${RUN} cd ${WRKDIR}/orocos-rtt-zeromq-2.4 && cp -r ./* ${ROBOTPKG_BASE}/orocos-toolchain-zeromq/rtt
+	
+include ../orocos-toolchain/depend.mk
 include ../../mk/robotpkg.mk
 
 
